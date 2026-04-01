@@ -61,9 +61,12 @@ body{background:var(--bg);color:var(--text);font-family:'Inter',sans-serif;
   position:fixed;top:0;left:0;pointer-events:none;z-index:9998;opacity:.55;}
 
 /* LOGO IMAGE */
-.logo-link{display:flex;align-items:center;text-decoration:none;flex-shrink:0;}
-.logo-img{height:36px;width:auto;object-fit:contain;display:block;}
-.footer-logo .logo-img{height:44px;margin-bottom:4px;}
+.logo-link{display:flex;align-items:center;gap:10px;text-decoration:none;flex-shrink:0;}
+.logo-img{height:52px;width:auto;object-fit:contain;display:block;}
+.logo-name{font-family:"Syne",sans-serif;font-size:20px;font-weight:800;letter-spacing:-.3px;color:var(--text);line-height:1.1;}
+.logo-name span{display:block;font-size:11px;font-weight:500;letter-spacing:1.5px;text-transform:uppercase;color:var(--accent);margin-top:1px;}
+.footer-logo .logo-img{height:56px;margin-bottom:0;}
+.footer-logo .logo-name{color:#fff;}
 .logo-sq{display:none;}/* hide old dot fallback */
 .grid-bg{position:fixed;inset:0;z-index:0;pointer-events:none;
   background-image:linear-gradient(rgba(255,85,0,.022) 1px,transparent 1px),
@@ -756,7 +759,7 @@ footer{position:relative;z-index:1;background:var(--bg2);border-top:1px solid va
 <!-- NAV -->
 <nav id="nav">
 <div class="nav-inner">
-  <a href="#" class="logo-link"><img src="images/Gemini_Generated_Image_3eubdk3eubdk3eub.png" alt="3D-Factory" class="logo-img"></a>
+  <a href="#" class="logo-link"><img src="images/Gemini_Generated_Image_3eubdk3eubdk3eub.png" alt="3D-Factory" class="logo-img"><div class="logo-name">3D Factory<span>Heilbronn</span></div></a>
   <ul class="nav-links">
     <li><a href="#leistungen">Leistungen</a></li>
     <li><a href="#ueber-uns">Über uns</a></li>
@@ -1166,7 +1169,7 @@ footer{position:relative;z-index:1;background:var(--bg2);border-top:1px solid va
   <div class="foot-bar"></div>
   <div class="foot-inner">
     <div class="foot-brand">
-      <a href="#" class="logo-link"><img src="images/Gemini_Generated_Image_3eubdk3eubdk3eub.png" alt="3D-Factory" class="logo-img"></a>
+      <a href="#" class="logo-link footer-logo"><img src="images/Gemini_Generated_Image_3eubdk3eubdk3eub.png" alt="3D-Factory" class="logo-img"><div class="logo-name">3D Factory<span>Heilbronn</span></div></a>
       <p>Ihr Partner für professionellen 3D-Druck, CAD-Design und Scanning (bald verfügbar) aus Heilbronn – präzise, schnell und persönlich.</p>
     </div>
     <div class="foot-col">
